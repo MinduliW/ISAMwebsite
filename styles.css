@@ -217,6 +217,98 @@ section h2 {
   background: #eef2fa;
 }
 
+/* IAC table styling */
+.iac-table {
+  width: 95%;
+  margin: 20px auto 40px auto;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.iac-table th,
+.iac-table td {
+  padding: 10px 12px;
+  border: 1px solid #e1e6f0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.iac-table thead {
+  background: #0e2257;
+  color: #ffffff;
+}
+
+.iac-table tbody tr:nth-child(odd) {
+  background: #f5f7fa;
+}
+
+.iac-table tbody tr:hover {
+  background: #eef2fa;
+}
+
+/* IAC section lists */
+.organisers,
+.tour-highlights {
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0 30px 0;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.organisers li,
+.tour-highlights li {
+  margin-bottom: 8px;
+  padding-left: 24px;
+  position: relative;
+  color: #4a5879;
+  line-height: 1.4;
+}
+
+.organisers li::before,
+.tour-highlights li::before {
+  content: '\2022'; /* bullet dot */
+  position: absolute;
+  left: 0;
+  color: #4f6fe6;
+  font-weight: bold;
+}
+
+/* Subheadings in IAC section */
+#iac h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #122d6e;
+}
+
+#iac h4 {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #0e2257;
+}
+
+#iac p {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  color: #4a5879;
+  line-height: 1.6;
+}
+
+#iac .note {
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+  color: #4a5879;
+}
+
 /* Team grid */
 .team-grid {
   display: grid;
