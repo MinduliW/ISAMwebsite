@@ -18,140 +18,170 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
-  <!-- Main stylesheet -->
-  <link rel="stylesheet" href="styles.css" />
+<!-- Main stylesheet -->
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <!-- Hero section with prominent tagline -->
   <header
     class="hero"
-    style="background-image: url('assets/img/hero.png');"
+    style="background-image: url('assets/img/ISAMheader.png');"
   >
     <nav>
-      <div class="logo">ISAM</div>
+      <div class="logo">ISAM@Usyd</div>
       <ul class="nav-links">
-        <li><a href="#what">What&nbsp;we&nbsp;do</a></li>
-        <li><a href="#values">Design&nbsp;Values</a></li>
+        <li><a href="#what">What&nbsp;We&nbsp;Do</a></li>
+        <li><a href="#values">Testbed&nbsp;Ecosystem</a></li>
         <li><a href="#team">Team</a></li>
         <li><a href="#iac">IAC&nbsp;2025</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <div class="hero-content">
-      <h1>Secure, Sustainable, Next‑Generation Navigation</h1>
+      <h1>In-Orbit Servicing, Assembly, and Manufacturing at the University of Sydney</h1>
       <p>
-        OrbitalNav is redefining the autonomous navigation landscape. We develop
-        advanced optical navigation sensors that provide accurate, secure and
-        sustainable solutions for spacecraft across all domains.
+        Funded by the SmartSat CRC and supported by industry partners, this project develops next-generation technologies for In-Orbit Servicing, Assembly, and Manufacturing (ISAM). Our focus lies in bridging the gap between autonomous robotic systems and the demands of real-time, reliable close-proximity operations.
       </p>
     </div>
   </header>
 
   <main>
-    <!-- What we do section -->
-       <!-- What we do section -->
-    <section id="what">
-      <h2>Project Highlights</h2>
-      <div class="cards">
-        <div class="card">
-          <div class="card-icon"><i class="fa-solid fa-bullseye"></i></div>
-          <h3>Mission Autonomy</h3>
-          <p>
-            blah
-          </p>
-        </div>
-        <div class="card">
-          <div class="card-icon"><i class="fa-solid fa-shield-alt"></i></div>
-          <h3>Perception</h3>
-          <p>
-            blah
-          </p>
-        </div>
-        <div class="card">
-          <div class="card-icon"><i class="fa-solid fa-leaf"></i></div>
-          <h3>Guidance and Control</h3>
-          <p>
-            blah
-          </p>
-        </div>
-        <div class="card">
-          <div class="card-icon"><i class="fa-solid fa-globe"></i></div>
-          <h3>Autonomous Decision Making</h3>
-          <p>
-            blah
-          </p>
-        </div>
+  <section id="what">
+    <h2>What We Do</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon"><i class="fa-solid fa-robot"></i></div>
+        <h3>Mission Autonomy</h3>
+        <p>
+          We develop autonomous systems for real-time, reliable, and safe close-proximity operations. Our work includes state estimation, guidance design, and intelligent planning for every phase of ISAM missions — from rendezvous to docking and undocking.
+        </p>
       </div>
-    </section>
-
-    <!-- Design values section -->
-    <section id="values">
-      <h2>Testing Facilities</h2>
-      <div class="values-grid">
-        <div class="value">
-          <h4> Software Testbed</h4>
-          <p>
-            We develop robust algorithms to maximise performance in dynamic
-            environments.
-          </p>
-        </div>
-        <div class="value">
-          <h4>Hardware in Loop Testbed</h4>
-          <p>
-             We develop robust algorithms to maximise performance in dynamic
-            environments.
-          </p>
-        </div>
-        <div class="value">
-          <h4>Optics Testbedr</h4>
-          <p>
-             We develop robust algorithms to maximise performance in dynamic
-            environments.
-          </p>
-        </div>
-       
+      <div class="card">
+        <div class="card-icon"><i class="fa-solid fa-eye"></i></div>
+        <h3>Advanced Sensing</h3>
+        <p>
+          Our sensing module spans long-range and close-range optical solutions. We optimize camera design, simulate imaging systems, and develop adaptive exposure and high dynamic range processing techniques to improve situational awareness during ISAM.
+        </p>
       </div>
-    </section>
-
-    <!-- Team section -->
-    <section id="team">
-      <h2>Team</h2>
-      <div class="team-grid">
-        <div class="team-member">
-          <img src="assets/img/team1.png" alt="Team member 1" />
-          <h4>Dr&nbsp;Alex&nbsp;Hart</h4>
-          <p>Research Lead</p>
-        </div>
-        <div class="team-member">
-          <img src="assets/img/team2.png" alt="Team member 2" />
-          <h4>Jordan&nbsp;Lee</h4>
-          <p>Systems Engineer</p>
-        </div>
-        <div class="team-member">
-          <img src="assets/img/team1.png" alt="Team member 3" />
-          <h4>Taylor&nbsp;Kim</h4>
-          <p>Optical Engineer</p>
-        </div>
-        <div class="team-member">
-          <img src="assets/img/team2.png" alt="Team member 4" />
-          <h4>Samira&nbsp;Patel</h4>
-          <p>Software Engineer</p>
-        </div>
+      <div class="card">
+        <div class="card-icon"><i class="fa-solid fa-compass-drafting"></i></div>
+        <h3>Guidance and Control</h3>
+        <p>
+          We design robust and safe guidance and control algorithms, including Q-law, convex-based tracking, and model predictive control, to ensure safe servicing trajectories under realistic operational constraints like plume impingement.
+        </p>
       </div>
-    </section>
+      <div class="card">
+        <div class="card-icon"><i class="fa-solid fa-brain"></i></div>
+        <h3>Perception</h3>
+        <p>
+          We use machine learning and computer vision techniques for satellite detection, feature extraction, and mid-range tracking using orbital motion models. The perception stack supports autonomy in uncooperative and uncertain conditions.
+        </p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Media section -->
+  <section id="values">
+    <h2>Testbed Ecosystem</h2>
+    <div class="values-grid">
+      <div class="value">
+        <h4>Software Simulation Testbed (SST)</h4>
+        <p>
+          An integrated simulation environment that models the servicer and client spacecraft, sensor suites, and control algorithms. It supports end-to-end testing and verification across all mission phases using realistic dynamics.
+        </p>
+      </div>
+      <div class="value">
+        <h4>Planar Air-Bearing Testbed (PAT)</h4>
+        <p>
+          A dual-arm robotic platform floating on an air-bearing table, used to validate guidance, control, and rendezvous strategies in 2D. The system includes real-time state estimation and onboard control.
+        </p>
+      </div>
+      <div class="value">
+        <h4>Optics Lab Testbed (OLT)</h4>
+        <p>
+          A laboratory-scale optical environment for perception algorithm validation using robotic arms, lighting rigs, and scale models of client satellites under various illumination conditions.
+        </p>
+      </div>
+    </div>
+  </section>
+
+<section id="team">
+  <h2>Team</h2>
+
+  <h3>Chief Investigators</h3>
+  <div class="team-grid">
+    <div class="team-member"><img src="assets/people/xiaofeng.jpeg" alt="Xiaofeng Wu" /><h4>Prof&nbsp;Xiaofeng&nbsp;Wu</h4></div>
+    <div class="team-member"><img src="assets/people/don.png" alt="Donald Dansereau" /><h4>Dr&nbsp;Donald&nbsp;G.&nbsp;Dansereau</h4></div>
+    <div class="team-member"><img src="assets/people/viorella.webp" alt="Viorela Ila" /><h4>Dr&nbsp;Viorela&nbsp;Ila</h4></div>
+    <div class="team-member"><img src="assets/people/salah.jpeg" alt="Salah Sukkarieh" /><h4>Prof&nbsp;Salah&nbsp;Sukkarieh</h4></div>
+    <div class="team-member"><img src="assets/people/stefan.jpeg" alt="Stefan Williams" /><h4>Prof&nbsp;Stefan&nbsp;Williams</h4></div>
+  </div>
+
+  <h3>Systems Engineer / Project Manager</h3>
+  <div class="team-grid">
+    <div class="team-member"><img src="assets/people/julian.jpg" alt="Julian Guinane" /><h4>Mr&nbsp;Julian&nbsp;Guinane</h4></div>
+  </div>
+
+  <h3>Postdoctoral Researchers</h3>
+  <div class="team-grid">
+    <div class="team-member"><img src="assets/people/tim.jpg" alt="Tim Bailey" /><h4>Dr&nbsp;Tim&nbsp;Bailey</h4></div>
+    <div class="team-member"><img src="assets/people/xianliang.webp" alt="Xianliang Chen" /><h4>Dr&nbsp;Xianliang&nbsp;Chen</h4></div>
+    <div class="team-member"><img src="assets/people/jesse.jpeg" alt="Jasprabhjit Mehami" /><h4>Dr&nbsp;Jasprabhjit&nbsp;Mehami</h4></div>
+    <div class="team-member"><img src="assets/people/minduli.jpeg" alt="Minduli Wijayatunga" /><h4>Dr&nbsp;Minduli&nbsp;Wijayatunga</h4></div>
+    <div class="team-member"><img src="assets/people/nathan.png" alt="Nathan Wallace" /><h4>Dr&nbsp;Nathan&nbsp;Wallace</h4></div>
+    <div class="team-member"><img src="assets/img/team2.png" alt="Zhicheng Xie" /><h4>Dr&nbsp;Zhicheng&nbsp;Xie</h4></div>
+  </div>
+
+  <h3>Research Associates</h3>
+  <div class="team-grid">
+    <div class="team-member"><img src="assets/people/will.jpeg" alt="Will Thorp" /><h4>Mr&nbsp;Will&nbsp;Thorp</h4></div>
+  </div>
+
+  <h3>PhD Researchers</h3>
+  <div class="team-grid">
+    <div class="team-member"><img src="assets/img/team2.png" alt="Saad Alshammari" /><h4>Mr&nbsp;Saad&nbsp;Alshammari</h4></div>
+    <div class="team-member"><img src="assets/img/team1.png" alt="Jiashu Wu" /><h4>Mr&nbsp;Jiashu&nbsp;Wu</h4></div>
+  </div>
+
+  <h3>Undergraduate Student Researchers</h3>
+  <div class="team-grid">
+    <div class="team-member"><img src="assets/img/team2.png" alt="Kaiyi Ke" /><h4>Kaiyi&nbsp;Ke</h4></div>
+    <div class="team-member"><img src="assets/img/team1.png" alt="Katrina Marshall" /><h4>Katrina&nbsp;Marshall</h4></div>
+    <div class="team-member"><img src="assets/img/team2.png" alt="Yuuichi Tang" /><h4>Yuuichi&nbsp;Tang</h4></div>
+    <div class="team-member"><img src="assets/img/team1.png" alt="Andrian Yasintus" /><h4>Andrian&nbsp;Yasintus</h4></div>
+    <div class="team-member"><img src="assets/img/team2.png" alt="Zefeng Yu" /><h4>Zefeng&nbsp;Yu</h4></div>
+    <div class="team-member"><img src="assets/img/team1.png" alt="Jay Zhou" /><h4>Jay&nbsp;Zhou</h4></div>
+  </div>
+
+  <h3>Industry Partner Representatives</h3>
+  <div class="team-grid">
+    <div class="team-member"><img src="assets/people/lakshika.jpeg" alt="Lashika Medagoda" /><h4>Lashika&nbsp;Medagoda</h4><p>Abyss Solutions</p></div>
+    <div class="team-member"><img src="assets/people/mikhail.jpg" alt="Mikhail Asavkin" /><h4>Mikhail&nbsp;Asavkin</h4><p>ANT61</p></div>
+    <div class="team-member"><img src="assets/people/Linh.jpeg" alt="Linh Trinh" /><h4>Linh&nbsp;Trinh</h4><p>ANT61</p></div>
+    <div class="team-member"><img src="assets/people/julia.jpg" alt="Julia Mitchell" /><h4>Julia&nbsp;Mitchell</h4><p>Space Machines Co</p></div>
+    <div class="team-member"><img src="assets/people/alex.jpeg" alt="Alex Priest" /><h4>Alex&nbsp;Priest</h4><p>Space Machines Co</p></div>
+    <div class="team-member"><img src="assets/people/Taofiq-Huq.jpg" alt="Taofiq Huq" /><h4>Taofiq&nbsp;Huq</h4><p>Spiral Blue</p></div>
+  </div>
+</section>
+
+    <!-- Media section
     <section id="media">
       <h2>Media</h2>
       <div class="media-gallery">
         <img src="assets/img/satellite.png" alt="Satellite" />
         <img src="assets/img/sensor.png" alt="Sensor" />
       </div>
-    </section>
+    </section> -->
 
     <!-- IAC 2025 section -->
     <section id="iac">
-      <h2>IAC&nbsp;2025</h2>
+      <h2>
+         <a href="https://www.iac2025.org/"
+              target="_blank" 
+     rel="noopener noreferrer">
+     International Astronautical Congress &nbsp;2025
+  </a>
+
+      </h2>
       <h3>Conference Presentations</h3>
       <table class="iac-table">
         <thead>
@@ -207,7 +237,14 @@
           </tr>
         </tbody>
       </table>
-      <h3>Special Session: Emerging Technologies for Autonomous On‑Orbit Servicing</h3>
+     <h3>
+  Special Session: 
+  <a href="https://www.iafastro.org/events/iac/international-astronautical-congress-2025/technical-programme/special-sessions/thursday-2-october/emerging-technologies-for-autonomous-on-orbit-servicing.html" 
+     target="_blank" 
+     rel="noopener noreferrer">
+     Emerging Technologies for Autonomous On‑Orbit Servicing
+  </a>
+</h3>
       <p><strong>Time:</strong> 15:00&nbsp;–&nbsp;16:10&nbsp;AEST&nbsp;|&nbsp;<strong>Room:</strong> C4.4</p>
       <p>
         Join leading minds from industry, academia and policy‑making to
@@ -222,6 +259,7 @@
         <li>Teresa&nbsp;Vidal‑Calleja – Professor &amp; Research Director, Robotics Institute, University of Technology Sydney (UTS)</li>
         <li>Jack&nbsp;Naylor – PhD Candidate, Australian Centre for Robotics, University of Sydney</li>
         <li>Nathan&nbsp;Wallace – Research Fellow, Agriculture &amp; Environment Group, ACFR, University of Sydney</li>
+          <li>Minduli&nbsp;Wijayatunga – Adjunct Assistant Professor, Aerospace Engineering, University of Illinois, Urbana-Champaign</li>
         <li>Julian&nbsp;Guinane – Space Systems Engineer, School of Aerospace, Mechanical and Mechatronic Engineering, University of Sydney</li>
         <li>Donald&nbsp;Dansereau – Senior Lecturer, School of Aerospace, Mechanical and Mechatronic Engineering, University of Sydney</li>
         <li>Thierry&nbsp;Peynot – Associate Professor, Queensland University of Technology (QUT)</li>
@@ -264,12 +302,12 @@
     <!-- Contact section -->
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email us at <a href="mailto:info@orbitalnav.com">info@orbitalnav.com</a></p>
+      <p>Email us at <a href="mailto:minduli@illinois.com">minduli@illinois.com</a></p>
       <p>Sydney&nbsp;NSW, Australia</p>
     </section>
   </main>
   <footer>
-    <p>&copy;&nbsp;2025&nbsp;OrbitalNav. All rights reserved.</p>
+    <p>&copy;&nbsp;2025&nbsp;Minduli W. All rights reserved.</p>
   </footer>
   <!-- Main script -->
   <script src="script.js"></script>

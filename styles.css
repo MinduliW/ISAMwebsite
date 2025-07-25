@@ -369,6 +369,15 @@ section h2 {
   color: #4a5879;
   margin-bottom: 10px;
 }
+section#team h3 {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem; /* Make it larger than member text */
+  font-weight: 600;
+  color: #222; /* Optional: darken slightly */
+}
+
 
 #contact a {
   color: #4f6fe6;
