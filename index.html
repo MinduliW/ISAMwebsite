@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OrbitalNav – Secure, Sustainable Navigation</title>
+  <!-- Google Fonts for modern typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Font Awesome for clean icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-Y7oYpnyEYLj0ic3gN0F6Kb+6EwBWEPkLu3jZ0e9f06X2oxfd5a2Yug6Bp7jCfMJq5fxLPpREhM2LfBGnVwui1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Hero section with prominent tagline -->
+  <header
+    class="hero"
+    style="background-image: url('assets/img/hero.png');"
+  >
+    <nav>
+      <div class="logo">OrbitalNav</div>
+      <ul class="nav-links">
+        <li><a href="#what">What&nbsp;we&nbsp;do</a></li>
+        <li><a href="#values">Design&nbsp;Values</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Secure, Sustainable, Next‑Generation Navigation</h1>
+      <p>
+        OrbitalNav is redefining the autonomous navigation landscape. We develop
+        advanced optical navigation sensors that provide accurate, secure and
+        sustainable solutions for spacecraft across all domains.
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <!-- What we do section -->
+    <section id="what">
+      <h2>What we do…</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-bullseye"></i></div>
+          <h3>Accurate</h3>
+          <p>
+            Advanced navigation solutions using optical‑based, RF‑free
+            sensors.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-shield-alt"></i></div>
+          <h3>Secure</h3>
+          <p>
+            Redundant positioning to mitigate jamming and spoofing in
+            contested domains.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-leaf"></i></div>
+          <h3>Sustainable</h3>
+          <p>
+            Enabling debris detection and preventing failure through
+            redundant PNT capability.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-globe"></i></div>
+          <h3>Multi‑Domain</h3>
+          <p>
+            Operating autonomously across terrestrial, LEO, GEO, lunar and
+            deep‑space missions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Design values section -->
+    <section id="values">
+      <h2>Design Values</h2>
+      <div class="values-grid">
+        <div class="value">
+          <h4>Novel Software</h4>
+          <p>
+            We develop robust algorithms to maximise performance in dynamic
+            environments.
+          </p>
+        </div>
+        <div class="value">
+          <h4>Customisable Layout</h4>
+          <p>
+            Our modular architecture adapts to diverse mission requirements and
+            platforms.
+          </p>
+        </div>
+        <div class="value">
+          <h4>Small Form Factor</h4>
+          <p>
+            Designed for compatibility with CubeSats as well as medium‑ to
+            large‑class satellites.
+          </p>
+        </div>
+        <div class="value">
+          <h4>Low Cost</h4>
+          <p>
+            Democratising space access for emerging nations, startups and
+            research institutions.
+          </p>
+        </div>
+        <div class="value">
+          <h4>Open Source</h4>
+          <p>
+            Our development ethos prioritises transparency and community
+            collaboration.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research publications section -->
+    <section id="publications">
+      <h2>Research Publications</h2>
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search publications…"
+        aria-label="Search publications"
+      />
+      <table id="pubTable">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Type</th>
+            <th>Publication</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2024</td>
+            <td>Journal</td>
+            <td>
+              Innovations in optical horizon sensing for small satellites
+            </td>
+            <td><a href="#" class="btn">Coming soon</a></td>
+          </tr>
+          <tr>
+            <td>2023</td>
+            <td>Conference</td>
+            <td>
+              Autonomous navigation beyond Earth orbit: a systems approach
+            </td>
+            <td><a href="#" class="btn">Coming soon</a></td>
+          </tr>
+          <tr>
+            <td>2023</td>
+            <td>Journal</td>
+            <td>
+              Comparative evaluation of star tracker algorithms using
+              machine learning
+            </td>
+            <td><a href="#" class="btn">Coming soon</a></td>
+          </tr>
+          <tr>
+            <td>2022</td>
+            <td>Journal</td>
+            <td>
+              Kalman filtering strategies for gyroless attitude
+              determination
+            </td>
+            <td><a href="#" class="btn">Coming soon</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Team section -->
+    <section id="team">
+      <h2>Team</h2>
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="assets/img/team1.png" alt="Team member 1" />
+          <h4>Dr&nbsp;Alex&nbsp;Hart</h4>
+          <p>Research Lead</p>
+        </div>
+        <div class="team-member">
+          <img src="assets/img/team2.png" alt="Team member 2" />
+          <h4>Jordan&nbsp;Lee</h4>
+          <p>Systems Engineer</p>
+        </div>
+        <div class="team-member">
+          <img src="assets/img/team1.png" alt="Team member 3" />
+          <h4>Taylor&nbsp;Kim</h4>
+          <p>Optical Engineer</p>
+        </div>
+        <div class="team-member">
+          <img src="assets/img/team2.png" alt="Team member 4" />
+          <h4>Samira&nbsp;Patel</h4>
+          <p>Software Engineer</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Media section -->
+    <section id="media">
+      <h2>Media</h2>
+      <div class="media-gallery">
+        <img src="assets/img/satellite.png" alt="Satellite" />
+        <img src="assets/img/sensor.png" alt="Sensor" />
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email us at <a href="mailto:info@orbitalnav.com">info@orbitalnav.com</a></p>
+      <p>Sydney&nbsp;NSW, Australia</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy;&nbsp;2025&nbsp;OrbitalNav. All rights reserved.</p>
+  </footer>
+  <!-- Main script -->
+  <script src="script.js"></script>
+</body>
+</html>
